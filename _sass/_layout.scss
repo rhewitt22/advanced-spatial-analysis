@@ -16,11 +16,6 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
 }
 
 .site-nav {
@@ -181,6 +176,13 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+}
+
+.post-thumb {
+    @include border-radius;
+    margin: 10px;
+    margin-right: 0;
+    float: right;
 }
 
 .post-link {
