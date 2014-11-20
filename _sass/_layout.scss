@@ -158,6 +158,10 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    img {
+        display: block;
+        margin: auto;
+    }
 }
 
 .page-heading {
