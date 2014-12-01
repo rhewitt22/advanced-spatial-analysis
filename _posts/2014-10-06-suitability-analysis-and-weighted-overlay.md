@@ -12,7 +12,7 @@ excerpt: "A recent trend in park visitors across the U.S. attempting to take Bea
 
 ## Problem
 
-A recent trend in park visitors across the U.S. attempting to take Bear Selfies](http://www.npr.org/2014/10/31/360300892/selfies-with-bears-prompt-warning-from-park-rangers) has led to increased interaction between bears and humans.  Despite warnings park visitors continue to try to approach bears to post photos to instagram and other photo sharing services.  Capturing and re-locating bears has proven to be unsuccessful as the bears continue to return.  Based on several factors we will need to identify the safest areas for bears to reduce the amount of bear-human interaction.
+A recent trend in park visitors across the U.S. attempting to take [Bear Selfies](http://www.npr.org/2014/10/31/360300892/selfies-with-bears-prompt-warning-from-park-rangers) has led to increased interaction between bears and humans.  Despite warnings park visitors continue to try to approach bears to post photos to instagram and other photo sharing services.  Capturing and re-locating bears has proven to be unsuccessful as the bears continue to return.  Based on several factors we will need to identify the safest areas for bears to reduce the amount of bear-human interaction.
 
 For more, listen to the NPR story here:  
 
