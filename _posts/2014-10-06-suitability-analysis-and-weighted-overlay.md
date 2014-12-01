@@ -17,7 +17,7 @@ A recent trend in park visitors across the U.S. attempting to take Bear Selfies]
 For more, listen to the NPR story here:  
 
 <audio controls>
-  <source src="/assets/bear-selfies.mp3" type="audio/mpeg">
+  <source src="{{ '/assets/bear-selfies.mp3' | prepend: site.baseurl }}" type="audio/mpeg"> post.url 
   Your browser does not support html5 audio.
 </audio>
 <br>
