@@ -5,7 +5,7 @@ layout: default
 topic: "Geospatial Data Issues"
 thumbnail: vineyard-potential
 
-excerpt: "This particular course provided by ESRI's Virtual Campus introduces GIS users to basic spatial data structures, sources of error, and basic spatial analysis.  I'll describe each of the six modules in more detail below."
+excerpt: "This particular course provided by ESRI's Virtual Campus introduces GIS users to basic spatial data structures, sources of error, and basic spatial analysis.  This module included six modules: Basics of Data and Information, Cartography, Map Production, and Geovisualization, Query and Measurement, Transformations and Descriptive Summaries, Optimization and Hypothesis Testing, and Uncertainty.  I'll describe each of the six modules in more detail below."
 ---
 
 {% include topic-header.html %}  

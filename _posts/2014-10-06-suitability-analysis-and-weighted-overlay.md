@@ -33,6 +33,8 @@ We will be using the ArcGIS Spatial Analyst extension to model the best availabl
 To conduct this analysis I need to convert all datasets to raster.  I used the feature to raster geoprocessing tool to accomplish this.  The next step was to convert the elevation surface to a slope surface using the slop geoprocessing tool.  I then had to use the euclidean distance tool to derive a distance measure (raster) from the input vector datasets. Once I had all of my datasets in the correct form (raster), representing the correct features I could reassign their values to a consistent scale.  Our model uses a scale of one to three with one being the least optimal and three being the most optimal.  I used the reclassify tool paired with the research I was given on black bear suitability to convert all rasters to a common scale.  I then fed the reclassified rasters into the weighted overlay tool where I gave each input the same (20%) weight to produce my final result.
 
 ![Bear Model]({{ site.baseurl }}/img/diagrams/bear-model.png "Bear Model")
+
+This diagram shows the series of geoprocessing tools that were chained together to create the bear suitability model.  For this exercise I used Model Builder in ArcGIS to create and run my model.
   
 ## Discussion
 
@@ -52,27 +54,32 @@ This project focused no strictly on species habitat needs, but also took into ac
 
 ### Road Reclassification
 
-![Road Reclassification]({{ site.baseurl }}/img/full-size/road-reclass.png "Road Reclassification")<br>
+![Road Reclassification]({{ site.baseurl }}/img/full-size/road-reclass.png "Road Reclassification")
+
 This reclassify tool shows that an increasing distance from roads represents a more favorable habitat for black bear.
 
 ### Stream Reclassification
 
-![Stream Reclassification]({{ site.baseurl }}/img/full-size/stream-reclass.png "Stream Reclassification")<br>
+![Stream Reclassification]({{ site.baseurl }}/img/full-size/stream-reclass.png "Stream Reclassification")
+
 This tool shows necessity for water.  As a raster cell gets closer to a stream, the favoraiblity score goes up.
 
 ### Trail Reclassification
 
-![Trail Reclassification]({{ site.baseurl }}/img/full-size/trail-reclass.png "Trail Reclassification")<br>
+![Trail Reclassification]({{ site.baseurl }}/img/full-size/trail-reclass.png "Trail Reclassification")
+
 This tool shows one way we try to minimize human-bear encounters.  Optimal habitat is located further away from trails in the park.
 
 ### Vegetation Reclassification
 
-![Vegetation Reclassification]({{ site.baseurl }}/img/full-size/veg-reclass.png "Vegetation Reclassification")<br>
+![Vegetation Reclassification]({{ site.baseurl }}/img/full-size/veg-reclass.png "Vegetation Reclassification")
+
 This tool categorizes different vegetation types into categories based on black bear's habitat preferences.  Habitat preferences are generally based on food availability and the ability to find trees and dens for escaping predators and raising young.
 
 ### Slope Reclassification
 
-![Slope Reclassification]({{ site.baseurl }}/img/full-size/slope-reclass.png "Slope Reclassification")<br>
+![Slope Reclassification]({{ site.baseurl }}/img/full-size/slope-reclass.png "Slope Reclassification")
+
 Bears do well in areas with lower slope.  As slope increases it takes more energy to survive; therefore the favorability score decreases with increasing slope.
 
 A screen capture of the Weighted Overlay dialog box's table clearly showing all parameters. The image needs to show all fields for all input data (if needed screen capture the dialog box/table in two sections);
@@ -83,4 +90,6 @@ A screen capture of the Weighted Overlay dialog box's table clearly showing all 
 ![Weighted Overlay]({{ site.baseurl }}/img/full-size/weighted-overlay-2.png "Weighted Overlay")<br>
 
 ### Final Black Bear Habitat Suitability Model Output
-![Model Output]({{ site.baseurl }}/img/full-size/black-bear-map.png "Model Output")<br>
+![Model Output]({{ site.baseurl }}/img/full-size/black-bear-map.png "Model Output")
+
+The final model shows areas that fall within the three habitat suitability categories.  The good thing is that the majority of the park falls within `More` or `Most` favorable.  The downside of the result is that the `Most Suitable` habitat is highly fragmented.  Bears consume mostly nuts and berries, and as a result require a wide range to forage for enough food.

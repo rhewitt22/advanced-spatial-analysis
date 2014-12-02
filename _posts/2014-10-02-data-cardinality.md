@@ -3,6 +3,8 @@ title: "Data Cardinality"
 layout: default
 
 topic: "Geospatial Analytics with Vector Data"
+thumbnail: job-creation-results
+
 excerpt: "My GIS department has been contacted by our State representatives to analyze the results of an industrial extension jobs survey for the upcoming elections.  The representatives are interested in showing how their policies have created jobs, and to compare their successes to neighboring districts.  I will be using extensive use of both tabular and spatial joins to combine spatial data with the survey results."
 ---
 
@@ -51,3 +53,11 @@ I was able to check my work throughout the process to ensure it's accuracy.  For
 ## Application & Reflection
 
 The concepts learned in this exercise can be easily applied to a number of different problems in GIS.  For example, we can join tabular data describing a species (i.e. taxonomic, and conservation status information) with actual survey points.  This way if the scientific name or conservation status should change, we only need to change the data in one place rather than in every single survey record.  This also reduces the total amount of information needed to collect during a survey and reduces the total size of our database.  Eventually we could use survey data of endangered species to answer a question similar to this exercise where a political representative wants to know how our data relates to their specific district.  This can be accomplished with a spatial join just like we did in this exercise joining zip code data with Senate and House districts.
+
+![Map of Industrial Job Growth by NC Senate District]({{ site.baseurl }}/img/full-size/jobs-by-senate-district.jpg "Map of Industrial Job Growth by NC Senate District")
+
+This map illustrates job growth in the Industrial sector by North Carolina Senate District.
+
+![Map of Industrial Job Growth by NC House District]({{ site.baseurl }}/img/full-size/jobs-by-house-district.jpg "Map of Industrial Job Growth by NC House District")
+
+This map illustrates job growth in the Industrial sector by North Carolina House District.

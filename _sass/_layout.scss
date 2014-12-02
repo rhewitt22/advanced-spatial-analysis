@@ -182,13 +182,6 @@
     color: $grey-color;
 }
 
-.post-thumb {
-    @include border-radius;
-    margin: 10px;
-    margin-right: 0;
-    float: right;
-}
-
 .post-link {
     display: block;
     font-size: 24px;
@@ -239,4 +232,10 @@
             font-size: 18px;
         }
     }
+}
+
+.post-thumb {
+    @include border-radius;
+    margin: 5px 0 10px 10px !important;
+    float: right;
 }

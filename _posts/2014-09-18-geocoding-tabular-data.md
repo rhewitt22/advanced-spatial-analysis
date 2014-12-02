@@ -26,6 +26,12 @@ There are three main components to any geocoding workflow.  First we need refere
 
 ![Geocoding Diagram]({{ site.baseurl }}/img/diagrams/geocoding-diagram.png "Geocoding Diagram")
 
+The above diagram shows the basic process of geocoding tabular data.  Tabular address data and reference data (such as a road network) are fed into the address locator, which produces a feature class of points representing each row in the address input table.
+
+![ArcMap Interactive Rematch Window]({{ site.baseurl }}/img/full-size/interactive-rematch.png "Image showing ArcMap Interactive Rematch Window")
+
+This image shows the ArcMap interface for interactively rematching geocoding results.  This is an important tool for fixing errors made by the address locator, or typos in the input dataset.
+
 ## Discussion:
 
 ### Difficulties Encountered:
@@ -48,3 +54,11 @@ Geocoding is an immensely powerful tool for converting natural language location
 An example of how geocoding can be applied to real-world problems is through a web mapping application.  Rarely do we know the exact coordinates of a given location.  To find a place on a map without continually panning and zooming we can enter the name of a place, or even an exact address.  In both cases the web map can geocode real-world places, convert them to geographic coordinates, and zoom to that location so the user can quickly carry on to find their required information.
 
 In both web and desktop GIS environments once address information is converted to geographic features we can use the full gambit of GIS tools to analyze the data.  In this exercise we mainly did visual analysis once the features were placed on a map, which only scratched the surface of what is possible.  When using these features in a GIS we can run statistical analyses, compare against supporting data layers, and produce compelling cartographic products describing our data.
+
+![ArcMap Interactive Rematch Window]({{ site.baseurl }}/img/full-size/geocoding-part-one.png "Image showing ArcMap Interactive Rematch Window")
+
+This map shows the initial feature class of points created by geocoding the input address table.  The first attempt at geocoding this dataset resulted in only 53% of addresses being `Matched` by the address locator.
+
+![ArcMap Interactive Rematch Window]({{ site.baseurl }}/img/full-size/geocoding-part-two.png "Image showing ArcMap Interactive Rematch Window")
+
+This map shows the second attempt at geocoding our input dataset.  This time we interactively corrected many of the errors present in the dataset so they could be properly matched by the locator.  In this case the number of `Tied` matches dropped drastically from 32% to 4% which increased our `Matched` results from 53% to 78%.
