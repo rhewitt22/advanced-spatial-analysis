@@ -4,7 +4,11 @@ layout: default
 
 ## Welcome
 
-This website serves as the digital portfolio for GIS 520: Advanced Geospatial Analytics for Roy Hewitt.  This course is part of the Master of GIS&amp;Technology track at N.C. State University.
+This website serves as Roy Hewitt's digital portfolio for GIS 520: Advanced Geospatial Analytics.  This course is part of the Master of GIS&amp;Technology track at N.C. State University.
+
+<a href="https://flic.kr/p/7tL7tJ">![Sunset Over Earth]({{ site.baseurl }}/img/full-size/earth.jpg "Sunset Over Earth")</a>
+
+*Sunset Over Earth* <a href="https://www.flickr.com/photos/nasamarshall/">by NASA's Marshall Space Flight Center</a> ISS, 11/23/09
 
 ## Course Description
 
@@ -13,6 +17,10 @@ This course covers the basics of Geographic Information Systems (GIS) analysis o
 The assignments included in the course take the student through the entire process of conducting an analysis including from collecting and normalizing data to conducting analyses, and finally producing professional quality maps and reflections.  As with any real-world analysis students are required to manipulate data to ensure the analyses are comparing like datasets.  This involves manipulating data types and formats in order to make apples-to-apples comparisons of spatial data.
 
 As with any decision-making process there is almost always more than one way to approach the problem.  This course considers the strengths and weaknesses of different analysis techniques.  With this knowledge the student should be able to choose the most appropriate analysis method for a given problem.
+
+<a href="https://flic.kr/p/52gcBa">![Geography is a Flavor]({{ site.baseurl }}/img/full-size/geography.jpg "Sign reads: 'Geography is a Flavor'")</a>
+
+*Geography* <a href="https://www.flickr.com/photos/awiseman/">by Andrew Wiseman</a>
 
 ## Course Reflection
 
@@ -23,3 +31,7 @@ Rather than focusing on any one specific topic this course did a great job of sh
 Data was often provided with the assignment, but for the assignment dealing with Census Bureau data students were required to search a government website to download a dataset of our choosing.  This is great real-world experience as the user-experience on many government data portals is relatively poor.  I might suggest that more assignments require students to find and download the data required rather than providing it up-front.
 
 One aspect that I would like to see change is the introduction of other software packages.  ArcGIS is the clear industry leader, but other, open source, technologies have closed the feature-gap over the last few years.  This is significant because, in my opinion, GIS analyses should be software agnostic.  To teach only one software package is to suggest it is the only (or best) tool for the job.  I think if one or two of the assignments were re-written to use [Quantum GIS (QGIS)](http://www.qgis.org/en/site/), an open-source alternative to ArcGIS, it would make students realize that the important thing is to think about spatial problem solving rather than what buttons to push to conduct an analysis.  The other benefit of using open source technologies is that students can download the software cross-platform (Mac, Linux, Windows) and experiment at home without the need to pay licensing fees.
+
+<a href="https://flic.kr/p/72PRGV">![North Carolina State University]({{ site.baseurl }}/img/full-size/ncsu.jpg "North Carolina State University")</a>
+
+*NC State University* <a href="https://www.flickr.com/photos/23727257@N00/">by Suzie Tremmel</a>

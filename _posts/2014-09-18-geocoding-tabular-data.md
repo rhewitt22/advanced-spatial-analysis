@@ -3,6 +3,8 @@ title: "Geocoding Tabular Data"
 layout: default
 
 topic: "Geospatial Data Issues"
+thumbnail: geocoding-results-final
+
 excerpt: "A local business has chosen me to conduct a geographic analysis of their customer base near Raleigh, North Carolina.  The goal of the analysis is to assist the business in targeting an advertising campaign to expand their customer base in Wake County, North Carolina.  The business collects customer address information, but is unsure how to visualize their customer base on a map.  My job is to convert their database of customers into a geographic dataset that can be used to conduct further spatial analysis."
 ---
 
