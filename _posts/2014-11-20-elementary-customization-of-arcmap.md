@@ -2,8 +2,8 @@
 title: "Elementary Customization of ArcMap"
 layout: default
 
-course: "GIS 520: Advanced Geospatial Analytics"
 topic: "Customization"
+thumbnail: esri
 
 excerpt: "The City of Oleander's GIS department recently had lots of employee turnover with several retiree positions being filled by recent college graduates.  The GIS manager for the department sees this as an opportunity to standardize how business is done, and would like to create some common training tools and manuals for the new employees.  I, the remaining GIS Analyst, volunteered to codify my analysis steps and procedures by customizing the ArcMap interface for all computers in the GIS lab as a first step.  I began by creating two new toolbars: an Oleander toolbar containing Save Edits, Start Editing, Stop Editing, Use Snapping, and Run EasyCalculate10 commands as well as a drop down menu called Select view, which allows the user to easily switch between data and layout views.  The second toolbar is called Fast Edits, which brought together the Save Edits, Edit Tool, Rotate Tool, and Curve Calculator commands.  Finally, I added the `Open Table with Selected Features` command to the feature layer context menu in the Table of Contents."
 ---
@@ -40,6 +40,10 @@ Since this assignment didn't require any actual analysis there is not result to 
 ## Application & Reflection
 
 Customizing the interface of ArcMap allows more advanced GIS users to increase their efficiency by having all the tools they need at their fingertips.  I have begun to write my own GIS script tools in Python that our Fisheries department uses to analyze data they collect throughout the Southeast using a standardized sampling methodology.  Their methodology takes into account effort, standard survey units, and seasonal variability, salinity, and riparian buffers around the stream/river being surveyed.  My scripts take in the standard datasets and run analyses to find species richness, biomass, and proportion of aquatic invasive species both annually and seasonally.  Since I will now be able to customize the ArcMap interface I can create a map document specifically for this project that allows field biologists without extensive GIS knowledge to find only the necessary tools. I can hide much of the other functionality that ArcMap provides as to reduce the amount of complexity the biologists need to navigate in order to analyze their data.
+
+![Customizing the ArcMap UI]({{ site.baseurl }}/img/full-size/customize-the-interface.jpg "Customizing the ArcMap UI")
+
+The image above shows my customized ArcMap interface.  In the screen-shot you can see the custom item I added to the context menu as well as my custom toolbar.
 
 ## Study Questions
 
