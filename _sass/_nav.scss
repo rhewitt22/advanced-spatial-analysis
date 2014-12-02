@@ -23,10 +23,10 @@
 
         ul {
           @include border-radius;
-
           display: list-item;
           background-color: white;
           top: 35px;
+          margin-left: -6px;
 
           li {
             display: block;
