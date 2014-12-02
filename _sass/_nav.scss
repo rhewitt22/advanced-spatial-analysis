@@ -1,0 +1,49 @@
+.course-menu {
+  clear: both;
+  width: 100%;
+  margin-left: -15px;
+
+  ul {
+    @include no-bullets;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    li {
+      @include inline-block;
+      @include border-radius;
+      cursor: pointer;
+      padding: 7px;
+      margin: 0 0 5px 10px;
+
+      &:hover {
+        background-color: white;
+        color: black;
+
+        ul {
+          @include border-radius;
+
+          display: list-item;
+          background-color: white;
+          top: 35px;
+
+          li {
+            display: block;
+            a {
+              @include hover-link;
+            }
+          }
+        }
+      }
+
+      ul {
+        display: none;
+        position: absolute;
+      }
+    }
+  }
+  a {
+    @include hover-link;
+  }
+}

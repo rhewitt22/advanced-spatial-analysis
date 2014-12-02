@@ -1,0 +1,32 @@
+---
+layout: page
+title: Customizing the ArcMap Interface
+permalink: /customization/
+
+hide: true
+---
+
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.posts reversed %}
+    {% if post.topic == "Customization" %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% if post.thumbnail %}
+        <img src="/advanced-spatial-analysis/img/thumbnails/{{ post.thumbnail }}-thumb.png" class="post-thumb"/>
+        {% endif %}
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p>{{ post.excerpt }}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
+      </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

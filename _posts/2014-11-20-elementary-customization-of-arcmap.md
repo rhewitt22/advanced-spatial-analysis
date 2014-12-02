@@ -4,6 +4,7 @@ layout: default
 
 course: "GIS 520: Advanced Geospatial Analytics"
 topic: "Customization"
+
 excerpt: "The City of Oleander's GIS department recently had lots of employee turnover with several retiree positions being filled by recent college graduates.  The GIS manager for the department sees this as an opportunity to standardize how business is done, and would like to create some common training tools and manuals for the new employees.  I, the remaining GIS Analyst, volunteered to codify my analysis steps and procedures by customizing the ArcMap interface for all computers in the GIS lab as a first step.  I began by creating two new toolbars: an Oleander toolbar containing Save Edits, Start Editing, Stop Editing, Use Snapping, and Run EasyCalculate10 commands as well as a drop down menu called Select view, which allows the user to easily switch between data and layout views.  The second toolbar is called Fast Edits, which brought together the Save Edits, Edit Tool, Rotate Tool, and Curve Calculator commands.  Finally, I added the `Open Table with Selected Features` command to the feature layer context menu in the Table of Contents."
 ---
 
