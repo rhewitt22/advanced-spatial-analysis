@@ -18,7 +18,7 @@ This assignment covers the use of GIS to apply attributes to specific segments o
 
 ### Strategies
 
-To solve the problem I used the Linear Referencing tools available in ArcGIS to assign the attributes listed below to specific locations along the road network.  The input datasets required were (1) a road network (line features), (2) a table of attributes representing specific location of traffic accidents along the road network, (3) a table of attributes representing specific segments of the road network representing the type of material that makes up the road.
+To solve the problem I used the Linear Referencing tools available in ArcGIS to assign the attributes listed below to specific locations along the road network.  The input datasets required were (1) a road network (line features), (2) a table of attributes representing specific location of traffic accidents along the road network, (3) a table of attributes representing specific segments of the road network representing the type of material that makes up the road.  The fields containing road type were of type text, while the road condition was an integer between 0 and 100.
 
 ### Methods
 
