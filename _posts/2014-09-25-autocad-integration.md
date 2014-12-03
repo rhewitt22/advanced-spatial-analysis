@@ -18,7 +18,7 @@ The NC State administration has asked that the GIS Department take over the mana
 
 ### Strategies:
 
-In order to complete this assignment I'll need to georeference the files from the CAD department to the North Carolina State Plane projection. I will then convert the files into their GIS equivalent features.  ArcGIS provides a series of tools for both georeferencing and file conversion that support input CAD datasets.
+In order to complete this assignment I'll need to georeference the files from the CAD department to the North Carolina State Plane projection. CAD files are different in that a single file can contain multiple features (points, lines, polygons) in a single Draw files.  I will then convert the files into their GIS equivalent features of point, line, and polygon feature classes.  ArcGIS provides a series of tools for both georeferencing and file conversion that support input CAD datasets.
 
 ### Methods:
 
