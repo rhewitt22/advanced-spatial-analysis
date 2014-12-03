@@ -3,7 +3,9 @@ title: "Using Raster Data for Site Selection"
 layout: default
 
 topic: "Geospatial Analytics with Raster Data"
-excerpt: ""
+thumbnail: fuzzy-final
+
+excerpt: "For this exercise I have been contacted by the California State Department of Natural Resources to model Bald Eagle habitat around Big Bear Lake in the San Bernardino National Forest. Rather than a traditional raster-cell based analysis I’ve been asked to conduct a fuzzy-tolerance analysis to account for the Bald Eagle’s instinctual site selection tendencies. This can often give more accurate results as animals are not bound to polygon boundaries, and do not see the world through 30 square meter raster cells."
 ---
 
 {% include topic-header.html %}

@@ -17,8 +17,7 @@ excerpt: "This particular course provided by ESRI's Virtual Campus introduces GI
 [Cartography, Map Production, and Geovisualization](#module-ii-cartography-map-production-and-geovisualization)  
 [Query and Measurement](#module-iii-query-and-measurement)  
 [Transformations and Descriptive Summaries](#module-iv-transformations-and-descriptive-summaries)  
-[Optimization and Hypothesis Testing](#module-v-optimization-and-hypothesis-testing)  
-[Uncertainty](#module-vi-uncertainty)
+[Optimization and Hypothesis Testing](#module-v-optimization-and-hypothesis-testing)
 
 ## Module I: Basics of Data and Information
 
@@ -51,7 +50,7 @@ The image above shows all residential areas that fall within the flood zone in g
 
 #### Difficulties:  
 
-This is a fairly straight-forward exercise.  The only difficulty I encountered was due to the fact that I just upgraded to ArcGIS 10.2, and my Spatial Analyst extension was not enabled by default.
+This is a fairly straight-forward exercise.  The only difficulty I encountered was due to the fact that I just upgraded to ArcGIS 10.2, and my Spatial Analyst extension was not enabled by default.  This is a simple fix that is available through the customize file menu.
 
 #### Evaluation:  
 
@@ -223,6 +222,7 @@ The diagram above shows
 
 #### Difficulties:
 
+Initially when I completed this exercise the default color of the line created as an output of the geoprocessing tool blended in with my background image.  I was very confused as to why the tool didn't generate a least-cost path, but eventually I realized resolving the issue was simple a matter of changing the layer's symbology.
 
 #### Evaluation:
 
@@ -233,39 +233,5 @@ The dashed green line in the image above shows the least-cost path for construct
 ### Application &amp; Reflection:
 
 With the explosion of natural gas development in the United States development of energy infrastructure is growing rapidly.  As a natural resource management agency we are charged with maintaining biodiversity even with increased pressure from development.  Pipeline projects that connect natural gas pads with refineries must comply with State and Federal law.  Both developers and biologists must consider the same regulations and geographic data when proposing and approving development projects.  Pipeline projects would use very similar methods as those completed in this exercise in order to minimize costs not only of construction, but also degradation of wildlife habitat. Often times these types of projects cannot completely avoid wildlife and their habitat, and are thus required to mitigate any damage by restoring other habitat for the benefit of wildlife.
-
-[Back to top](#top)
-
-## Module VI: Uncertainty
-
-Error is a fact of life when it comes to geographic data.  The world is infinitely complex, and therefore impossible to model without some generalization or error.  Additionally, the instruments we use to collect geographic data come with inherent error.
-
-### Problem:
-
-How can we describe error quantitatively?
-
-### Analysis Procedures:  
-
-#### Strategies:
-
-#### Methods:
-
-### Discussion:  
-
-#### Difficulties:
-
-#### Evaluation:
-
-
-
-### Application &amp; Reflection:
-
-A Global Positioning Systems (GPS) use a series of satellites orbiting the earth paired with stations on the ground with a known position.  The hand-held GPS device you use to take lat/lon positions uses signals from both of these devices in order to record your current position.  Many factors effect the quality of the data collected include the GPS module used, the number of satellites you can connect to just to name a few.  Generally speaking the error produced by these devices will be similar if you are collecting a series of points all at once.  If, instead, you will be collecting data over the course of several days, weeks, months, or years the position and availability of GPS Satellites may be grossly different and can result in different amounts of error.
-
-There are different techniques for measuring error depending on the type of data you're working with.  For nominal data (categories) we use something called a [confusion matrix](http://en.wikipedia.org/wiki/Confusion_matrix).  As an example let's assume we are digitizing land-use types based on aerial imagery.  We create polygons of contiguous areas that represent the same land-use type.  To test the accuracy of our photo interpretation we ground truth our data most likely using a stratified sample (we're unlikely to be able to ground truth every record).  Before we get started we need to create a grid on top of our data so we're selecting random cells rather than inspecting entire polygons.  As we ground truth we record instances where our photo interpretation was correct, and in instances where our interpretation was wrong we record the correct value for that cell.  The resulting table is called a confusion matrix.
-
-We can use our confusion matrix to estimate how likely our photo interpretations are correct, and the likelihood of random errors. [Kappa index]()
-
-I often find that consumers of maps assume that the data used is valid and properly applied to a given problem or scenario.  I suspect this comes from the fact that any map you review requires a certain amount of personal analysis.  Since the reader is coming to their own conclusions they don't hesitate to accept them.  At times the reader of a map is unaware that the cartographer has intentionally led them to a certain conclusion.  Any GIS practitioner that has read [how to lie with maps](http://www.markmonmonier.com/how_to_lie_with_maps_14880.htm) knows how easy it is to manipulate the impression left on your map's end-user.  With that said it is important to not only understand the limitations of a dataset you are prepared to map, but to clearly state the limitations to your readers before you dive into any real analysis.
 
 [Back to top](#top)
