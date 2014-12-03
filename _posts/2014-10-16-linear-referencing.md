@@ -3,6 +3,8 @@ title: "Linear Referencing"
 layout: default
 
 topic: "Geospatial Analytics with Vector Data"
+thumbnail: linear-referencing
+
 excerpt: "This assignment covers the use of GIS to apply attributes to specific segments of a line with a technique called Linear Referencing.  More specifically I analyzed the occurrence of accidents along segments of a road network and compared those accidents against both the type of material of the road, and the road's condition."
 ---
 
