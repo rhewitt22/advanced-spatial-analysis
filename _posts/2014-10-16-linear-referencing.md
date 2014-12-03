@@ -32,9 +32,11 @@ The diagram above shows the steps used to complete this exercise.  Input dataset
 
 ### Difficulties
 
-Describe any difficulties encountered and briefly explain how the difficulties were resolved.  For example, you may indicate where you had a roadblock in the exercise, i.e., downloading data, finding data, getting model builder past a particular point, editing a field in the attribute table, etc.  Even if you did not have any major problems you should report the difficulties encountered.
+The first time I ran the make events layer geoprocessing tool I had one small line segment from the roads layer selected which limited the extent that the tool ran.  The tool ran successfully for only that line and produced no output because no accidents fell within that line segment.  Since the line was so small I didn't notice it was selected.  Finally I restarted ArcMap, which cleared my selection and everything proceeded correctly.
 
 ### Evaluation
+
+Based on a visual interpretation of my results the road accidents appeared along the correct line segments.  The goal of the assignment, however, was to determine if accidents were associated with road condition.  Without conducting a true statistical analysis it is impossible to determine if the results are statistically significant to suggest that road accidents are more prevalent along damaged road segments.
 
 My results showed that poorly maintained roads (score less than or equal to 75/100) had only 0.1 more accidents per mile than those with a score of 76/100 or greater.  I'm not particularly surprised by these results as there are many factors that contribute to traffic accidents.  I would guess that road maintenance has a higher impact on the number of accidents per mile as the score drops more dramatically towards the 50/100 range.
 
