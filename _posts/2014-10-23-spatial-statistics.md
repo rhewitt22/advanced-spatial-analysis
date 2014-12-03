@@ -18,7 +18,7 @@ The problem presented in this assignment is to apply spatial statistics methods 
 
 ### Strategies
 
-For this assignment we used the Spatial Statistics tools available in ArcGIS.  We used the Average nearest neighbor tool to test for geographic clustering using an input of EMS point locations, and the area of Battalion 2's footprint.  For the next exercise we used the General G statistic, which measures concentrations of high/low values over an entire study area.  The third tutorial covered Ripley's K function pattern analysis to determine clustering.  The key difference between the average nearest neighbor and Ripley's K is that the latter tests against all points in the dataset rather than just the nearest neighbor.  Finally we used Moran's I to identify clustering using attributes and geographic location.
+For this assignment we used the Spatial Statistics tools available in ArcGIS.  We used the Average nearest neighbor tool to test for geographic clustering using an input dataset of EMS point locations, and a polygon feature representing the area of Battalion 2's footprint.  For the next exercise we used the General G statistic, which measures concentrations of high/low values over an entire study area.  The third tutorial covered Ripley's K function pattern analysis to determine clustering.  The key difference between the average nearest neighbor and Ripley's K is that the latter tests against all points in the dataset rather than just the nearest neighbor.  Finally we used Moran's I to identify clustering using attributes and geographic location.
 
 ### Methods 
 
