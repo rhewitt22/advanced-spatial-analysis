@@ -32,7 +32,7 @@ I imported both the Census tract data and the tabular earnings data into ArcGIS 
 
 The biggest difficulty I had while completing this exercise was that I was led to believe I should be using the 2000 Census Shapefiles rather than 2010.  Not only does the dataset reference the years 2008 - 2012, but when I clicked on "View Table Notes" I found the following:
 
-![Choosing the right shapefile]({{ site.baseurl }}/img/full-size/census-2010.png "Choosing the right shapefile")
+![Working with Census Data]({{ site.baseurl }}/img/full-size/census-2010.png "Map of median earnings in Fulton County, GA")
 
 When I tried the join initially I used the "Validate Join" tool and noticed that about 50 rows did not match between the two datasets.  I assumed there was something wrong with the join field, but after two or three attempts the problem persisted.  Finally I tried using the 2010 dataset with the "Validate Join" tool, and the first attempt had every row match between the two datasets.
 
@@ -47,4 +47,3 @@ After completing my map I did a visual analysis of the estimated median earnings
 ## Application & Reflection
 
 With the amazing depth of Census data available it's not difficult to imagine how it could be applied to any number of different analysis.  My work as a fish and wildlife biologist does not really lend itself to using much Census data.  We do consider population growth to determine where wildlife habitat is likely to be lost, but usually on the scale of decades into the future.  Census data is retrospective in that the data looks back at reality rather than projecting future population and demographics.  Still, I can imagine with several of our Outreach programs such as [Connecting People with Nature](https://www.fws.gov/northeast/cpwn/), and the [Urban Wildlife Refuge Initiativee](https://www.fws.gov/refuges/vision/urbanwildliferefugeinitiative.html) a solid understanding of demographics and population distribution are important.
->>>>>>> census
