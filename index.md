@@ -4,7 +4,7 @@ layout: default
 
 ## Welcome
 
-This website serves as Roy Hewitt's digital portfolio for GIS 520: Advanced Geospatial Analytics.  This course is part of the Master of GIS&amp;Technology track at N.C. State University.
+This website serves as Roy Hewitt's digital portfolio for GIS 520: Advanced Geospatial Analytics.  This course is part of the Master of GIS&amp;Technology track at N.C. State University.  The primary role of this site is to provide a listing of [completed course assignments]({{site.baseurl}}/assignments/).
 
 <a href="https://flic.kr/p/7tL7tJ">![Sunset Over Earth]({{ site.baseurl }}/img/full-size/earth.jpg "Sunset Over Earth")</a>
 
