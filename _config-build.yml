@@ -4,8 +4,6 @@ title: Advanced Geospatial Analytics Portfolio
 description: > # this means to ignore newlines until "baseurl:"
   Roy Hewitt's GIS 520 Course Portfolio as part of the NC State
   Master's in GIS & Technology Certificate Program
-  
-baseurl: "/advanced-spatial-analysis/" # the subpath of your site, e.g. /blog/
 
 email: royhewitt07@gmail.com
 twitter_username: r0yhewitt

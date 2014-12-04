@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}">{{ site.title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -26,7 +26,7 @@
 
     <nav class="course-menu">
       <ul>
-        <li><a href="{{ '/data-issues/' | prepend: site.baseurl }}">Data Issues</a>
+        <li><a href="{{ 'data-issues/' | prepend: site.baseurl }}">Data Issues</a>
           <ul>
             {% for post in site.posts %}
               {% if post.topic == "Geospatial Data Issues" %}
@@ -35,7 +35,7 @@
             {% endfor %}     
           </ul>
         </li>
-        <li><a href="{{ '/vector-data/' | prepend: site.baseurl }}">Vector Data</a>
+        <li><a href="{{ 'vector-data/' | prepend: site.baseurl }}">Vector Data</a>
           <ul>
             {% for post in site.posts %}
               {% if post.topic == "Geospatial Analytics with Vector Data" %}
@@ -44,7 +44,7 @@
             {% endfor %}  
           </ul>
         </li>
-        <li><a href="{{ '/raster-data/' | prepend: site.baseurl }}">Raster Data</a>
+        <li><a href="{{ 'raster-data/' | prepend: site.baseurl }}">Raster Data</a>
           <ul>
             {% for post in site.posts %}
               {% if post.topic == "Geospatial Analytics with Raster Data" %}
@@ -53,7 +53,7 @@
             {% endfor %}  
           </ul>
         </li>
-        <li><a href="{{ '/customization/' | prepend: site.baseurl }}">Customization</a>
+        <li><a href="{{ 'customization/' | prepend: site.baseurl }}">Customization</a>
           <ul>
             {% for post in site.posts %}
               {% if post.topic == "Customization" %}
