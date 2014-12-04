@@ -39,6 +39,12 @@ Since this assignment didn't require any actual analysis there is no result to c
 
 ## Application & Reflection
 
+### Problem description
+
+### Data needed
+
+### Analysis procedures
+
 Customizing the interface of ArcMap allows more advanced GIS users to increase their efficiency by having all the tools they need at their fingertips.  I have begun to write my own GIS script tools in Python that our Fisheries department uses to analyze data they collect throughout the Southeast using a standardized sampling methodology.  Their methodology takes into account effort, standard survey units, and seasonal variability, salinity, and riparian buffers around the stream/river being surveyed.  My scripts take in the standard datasets and run analyses to find species richness, biomass, and proportion of aquatic invasive species both annually and seasonally.  Since I will now be able to customize the ArcMap interface I can create a map document specifically for this project that allows field biologists without extensive GIS knowledge to find only the necessary tools. I can hide much of the other functionality that ArcMap provides as to reduce the amount of complexity the biologists need to navigate in order to analyze their data.
 
 ![Customizing the ArcMap UI]({{ site.baseurl }}/img/full-size/customize-the-interface.jpg "Customizing the ArcMap UI")

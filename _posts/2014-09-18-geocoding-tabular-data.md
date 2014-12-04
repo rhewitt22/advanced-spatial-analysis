@@ -53,7 +53,17 @@ Geocoding is an immensely powerful tool for converting natural language location
 
 An example of how geocoding can be applied to real-world problems is through a web mapping application.  Rarely do we know the exact coordinates of a given location.  To find a place on a map without continually panning and zooming we can enter the name of a place, or even an exact address.  In both cases the web map can geocode real-world places, convert them to geographic coordinates, and zoom to that location so the user can quickly carry on to find their required information.
 
-In both web and desktop GIS environments once address information is converted to geographic features we can use the full gambit of GIS tools to analyze the data.  In this exercise we mainly did visual analysis once the features were placed on a map, which only scratched the surface of what is possible.  When using these features in a GIS we can run statistical analyses, compare against supporting data layers, and produce compelling cartographic products describing our data.
+### Problem description
+
+A local government seeking to improve transparency wants to release crime data from the local police force.  They want to make data available to the public so they can explore and analyze it.
+
+### Data needed
+
+The city would need to release a point feature class of crimes that included attributes including the date/time the crime was committed, the type of crime, and information related to the police force investigation.
+
+### Analysis procedures
+
+If I were to want to make data available to the public in addition to releasing a complete dataset in an open format like a comma separated value I would create a "clip-and-ship" web application.  The application would include two input fields for the user: (1) an address text-box, which I would geocode to create a central point to select crime points, (2) a buffer distance (number) indicating the number of miles the address location should be buffered to clip crime location points.  This application would take the onus off of the police department to provide custom crime reports to citizens who would now be able to find crimes around their homes, or some other area of interest quickly and easily.
 
 ![ArcMap Interactive Rematch Window]({{ site.baseurl }}/img/full-size/geocoding-part-one.png "Image showing ArcMap Interactive Rematch Window")
 

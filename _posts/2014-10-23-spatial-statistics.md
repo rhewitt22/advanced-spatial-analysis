@@ -38,7 +38,15 @@ This was the first time that we were able to use statistical analysis to quantif
   
 ## Application &amp; Reflection
 
-Spatial statistics are very useful in the world of natural resource management.  Species locations are tracked with GPS either through observation, or remote GPS collars that transmit their location to a remote server.  This data is almost always compared to the habitat or landcover in that particular record's location.  After accumulating this type of data for some period of time we can use spatial statistics to get a better understanding of where a particular species tends to cluster, and how the associated habitat/landcover conditions might support that species' population.  With this knowledge we can target restoration and work to improve habitat for rare species.
+### Problem description
+
+
+### Data needed
+
+### Analysis procedures
+
+
+Spatial statistics are very useful in the world of natural resource management.  Species locations are tracked with GPS either through observation, or remote GPS collars that transmit their location to a remote server.  This data is almost always compared to the habitat or landcover in that particular record's location.  After accumulating this type of data for some period of time we can use spatial statistics to get a better understanding of where a particular species tends to cluster, and how the associated habitat/landcover conditions might support that species' population.  We can use this kind of information to build habitat models, or use predictive models like Maxent to discover populations that haven't yet been discovered.  With this knowledge we can target restoration and work to improve habitat for rare species.
 
 ![Map of EMS call Cluster Analysis]({{ site.baseurl }}/img/full-size/cluster-analysis.jpg "Map of EMS call Cluster Analysis")
 

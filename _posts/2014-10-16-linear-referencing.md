@@ -44,6 +44,16 @@ Evidence suggests that distracted and intoxicated driving are some of the most d
 
 ## Application & Reflection
 
+### Problem description
+
+Identify dams and other stream barriers for removal that prevent fish from migrating up stream to spawning grounds.
+
+### Data needed
+
+We need to make use of the NHD+ Version 2 stream/river network developed by USGS.  USFWS species occurrence data that can be associated with line segments to represent where species are present and absent.
+
+### Analysis procedures
+
 Linear referencing is a powerful tool anytime you are dealing with attributes along a line feature.  In the Fish &amp; Wildlife Service we often look at river and tributary segments that block migration of diadromous fish.  While some dams offer a means for fish to migrate upstream to their typical spawning grounds many do not.  Not only do some dams contribute directly to fish mortality as they try to swim through energy producing turbines, but they also contribute indirectly as adults of reproductive age are unable to find suitable spawning grounds.
 
-With linear referencing in GIS we can assign attributes such as fish species presence/absence to particular reaches of rivers and streams.  The nodes separating these dynamic segments are typically some sort of stream/river blockage that can be addressed through restoration work.  This could include dam removals or fish passage projects.  With linear referencing and dynamic segmentation we can model the blockages that would offer the greatest return on investment by opening up the greatest area for diadromous fishes.
+With linear referencing in GIS we can assign attributes such as fish species presence/absence to particular reaches of rivers and streams.  The nodes separating these dynamic segments are typically some sort of stream/river blockage that can be addressed through restoration work, which could include dam removals or fish passage projects.  Once we have our stream network setup with barriers idetified as nodes we can select those nodes that would result in the greatest number of stream miles being opened up for fish migration.  These are the types of barriers we would focus our restoration work to provide the greatest return on investment.

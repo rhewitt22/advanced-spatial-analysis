@@ -52,7 +52,17 @@ I was able to check my work throughout the process to ensure it's accuracy.  For
 
 ## Application & Reflection
 
-The concepts learned in this exercise can be easily applied to a number of different problems in GIS.  For example, we can join tabular data describing a species (i.e. taxonomic, and conservation status information) with actual survey points.  This way if the scientific name or conservation status should change, we only need to change the data in one place rather than in every single survey record.  This also reduces the total amount of information needed to collect during a survey and reduces the total size of our database.  Eventually we could use survey data of endangered species to answer a question similar to this exercise where a political representative wants to know how our data relates to their specific district.  This can be accomplished with a spatial join just like we did in this exercise joining zip code data with Senate and House districts.
+### Problem description
+
+We need to conduct recurring water quality surveys at known locations at several times throughout the year.
+
+### Data needed
+
+Location information for the survey locations, which are most likely provided as a point feature class.
+
+### Analysis procedures:
+
+Tabular joins are very useful when conducting surveys.  If, for example, you go into the field to visit a list of survey locations on a regular basis to collect water quality information the survey location information and the data you collect should be managed in separate tables.  If I keep a point feature class of survey locations I can load those points into my GPS, which will help in finding the locations when I'm in the field.  In a second, related table, I can manage all of the water quality information that I collect with each row in the table representing a distinct trip into the field.  Managing data in this way also precludes the need to collect data about the location itself (location id, location description, etc.) that will very likely remain the same.  This reduces the total amount of data that I need to collect, and reduces redundancy in the database.
 
 ![Map of Industrial Job Growth by NC Senate District]({{ site.baseurl }}/img/full-size/jobs-by-senate-district.jpg "Map of Industrial Job Growth by NC Senate District")
 

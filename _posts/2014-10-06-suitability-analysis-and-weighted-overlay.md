@@ -48,7 +48,21 @@ I checked the output of each step of my analysis to ensure the results I got wer
 
 ## Application & Reflection
 
-This project focused not strictly on species habitat needs, but also took into account the need to keep bears and humans separate as much as possible.  In my own work we generally work in areas that are less frequently used by humans which is the case of State and National parks.  As such our analysis generally focuses on habitat specific factors.  I could use a similar weighted overlay approach to model the habitat of a rare species using more detailed habitat descriptors like soil type, and canopy cover in addition to the features used in the black bear analysis.  This type of model would be helpful in two scenarios: (1) we have dollars that we can use to directly improve habitat to move it from one favorability class to a higher class, (2) target surveys in areas of high favorability that have no reports of the species.  If we can show that a species is more widespread than previously thought it would prevent the risk of extinction if a meta population were lost in a stochastic event.
+### Problem description
+
+We need to create a habitat suitability model for Gopher Tortoise throughout the Southeastern United States.
+
+### Data needed
+
+Canopy composition data derived from LiDAr, SSURGO soil data, vector data for streams and roads, and information relating to forest management -- specifically frequency of prescribed burns of pine habitats.
+
+### Analysis procedures:
+
+To construct a habitat model for the Gopher Tortoise we would follow the same general analysis that we did for black bear.  Gopher tortoises create a network of burrows that they use to evade predators.  They also require an open canopy so their main food source of shrubs and grasses have an opportunity to grow.  Finally the Gopher Tortoise needs to be close to a stream for a water source and prefers to be further from roads to prevent being impacted by cars.
+
+I would need to convert all of the different layers to raster with the same cell size.  Based on what I know about the tortoise's biology I would use Euclidean distance tools on the stream and roads layer identifying a cut off for how close to streams and far from roads the animal must be.  I would also select from a list of preferred tortoise soils selecting soils that are easier for the tortoise to excavate for burrows, and soils that drain well as to avoid flooded burrows.  Using a raster of percent canopy cover derived from LiDAR I would select open canopy cells as they allow the tortoise to bask for temperature regulation and encourage growth of ground vegetation.  Finally I would multiply all of the different layers together using raster math.  Any cell that had a value of zero, or unsuitable habitat, would not be present in the final model.  Areas that were suitable for a few of the habitat factors would be identified as somewhat suitable.  Cells for which many of the required habitat factors were present would be identified as suitable.
+
+This type of model would be helpful in two scenarios: (1) we have dollars that we can use to directly improve habitat to move it from one suitability class to a higher class, (2) target surveys in areas of high suitability that have no reports of the species.  If we can show that a species is more widespread than previously thought it would prevent the risk of extinction if a meta population were lost in a stochastic event.
 
 ## Model Parameters and Results
 

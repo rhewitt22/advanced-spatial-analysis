@@ -50,4 +50,16 @@ I'm very confident in the results of my data conversion.  I compared the final d
 
 ## Application & Reflection:
 
-Georeferencing is a very common and useful application of GIS.  In the past I have georeferenced Engineering drawings (rasters) when the CAD files themselves are not available.  In this case we have the features in a GIS already, but we use the official engineering drawings to ensure their accuracy.  Another case where I applied my georeferencing skills to a raster dataset was on an aquatic invasive species removal effort.  Field staff were on the water almost every day in search of nutria, a semi-aquatic rodent that has ravaged marsh throughout the Chesapeake Bay.  There were high resolution navigation charts available on the web as simple `.png` images.  The files themselves were not associated with a coordinate system, but they contained very valuable information such as submerged hazards, and shallow areas.  I georeferenced these images and trained the staff on how to make simple field maps that could help them navigate for their surveys.
+Integrating AutoCAD files to GIS is a common task in the Federal Government.  When energy companies propose to build new dams, solar arrays, or wind turbines they submit plans to the U.S. Fish &amp; Wildlife Service to understand if there are any sensitive plants or animals present.
+
+### Problem description
+
+An energy development firm would like to consult with the U.S. Fish &amp; Wildlife Service to see if proposed project will impact sensitive plant and animal species.
+
+### Data needed
+
+Consulting companies outlining the energy development projects often provide their plans/drawings in AutoCAD formats rather than native GIS feature classes.  I need their drawings and aerial imagery (raster) with notable landmarks in order to georeference the CAD files.
+
+### Analysis procedures
+
+In order to give the energy companies an idea of what natural resources may be impacted by their proposed energy development I need to georeference their drawings using aerial imagery and known landmarks.  Once the drawings are georeferenced I can convert them to GIS feature classes or shapefiles so that I can run common geoprocessing tools like buffers and intersections against species occurrence records and known population extents.  If the project will likely impact a sensitive species we can suggest best practices to minimize impacts.  Another alternative is to pay into a mitigation bank where the money is used to improve/restore habitat in another area which will benefit the impacted species.

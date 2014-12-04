@@ -46,4 +46,14 @@ After completing my map I did a visual analysis of the estimated median earnings
 
 ## Application & Reflection
 
-With the amazing depth of Census data available it's not difficult to imagine how it could be applied to any number of different analysis.  My work as a fish and wildlife biologist does not really lend itself to using much Census data.  We do consider population growth to determine where wildlife habitat is likely to be lost, but usually on the scale of decades into the future.  Census data is retrospective in that the data looks back at reality rather than projecting future population and demographics.  Still, I can imagine with several of our Outreach programs such as [Connecting People with Nature](https://www.fws.gov/northeast/cpwn/), and the [Urban Wildlife Refuge Initiativee](https://www.fws.gov/refuges/vision/urbanwildliferefugeinitiative.html) a solid understanding of demographics and population distribution are important.
+### Problem description
+
+The conservation community needs to increase diversity in order to meet the increasing challenges of climate change and other anthropogenic factors impacting the environment.  We need to identify minority communities in urban areas for outreach opportunities to increase interest and awareness of natural resource career opportunities.
+
+### Data needed
+
+We need to access U.S. Census Bureau data on population density and demographics in the Atlanta Metro area.  We also need to find where schools are located as they provide a great avenue to introduce students to the field of environmental science.
+
+### Analysis procedures
+
+Once I downloaded the census tracks, population density and demographic data for the Atlanta Metro Area I can select low income census tracks with high proportions of minority citizens.  Once we have several tracks selected I can intersect primary school locations to create a list of schools to contact with outreach materials and programs such as [Connecting People with Nature](https://www.fws.gov/northeast/cpwn/), and the [Urban Wildlife Refuge Initiative](https://www.fws.gov/refuges/vision/urbanwildliferefugeinitiative.html).  In addition to outreach materials we can help schools complete grant applications to get a school yard habitat so teachers could take students into nature as part of their science classes.  Our refuge system already provides programming for youth including guided birding tours and fishing events.
