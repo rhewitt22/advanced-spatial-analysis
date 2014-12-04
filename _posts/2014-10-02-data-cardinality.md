@@ -5,14 +5,14 @@ layout: default
 topic: "Geospatial Analytics with Vector Data"
 thumbnail: job-creation-results
 
-excerpt: "My GIS department has been contacted by our State representatives to analyze the results of an industrial extension jobs survey for the upcoming elections.  The representatives are interested in showing how their policies have created jobs, and to compare their successes to neighboring districts.  I will be using extensive use of both tabular and spatial joins to combine spatial data with the survey results."
+excerpt: "My GIS department has been contacted by our State representatives to analyze the results of an industrial extension jobs survey for the upcoming elections.  The representatives are interested in showing how their policies have created jobs, and to compare their successes to neighboring districts.  I will be making extensive use of both tabular and spatial joins to combine spatial data with the survey results."
 ---
 
 {% include topic-header.html %}
 
 ## Problem
 
-My GIS department has been contacted by our State representatives to analyze the results of an industrial extension jobs survey for the upcoming elections.  The representatives are interested in showing how their policies have created jobs, and to compare their successes to neighboring districts.  I will be using extensive use of both tabular and spatial joins to combine spatial data with the survey results.
+My GIS department has been contacted by our State representatives to analyze the results of an industrial extension jobs survey for the upcoming elections.  The representatives are interested in showing how their policies have created jobs, and to compare their successes to neighboring districts.  I will be making extensive use of both tabular and spatial joins to combine spatial data with the survey results.
 
 ## Analysis Procedures
 
