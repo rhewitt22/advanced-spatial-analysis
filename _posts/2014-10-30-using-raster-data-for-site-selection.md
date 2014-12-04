@@ -64,6 +64,6 @@ This image shows the fuzzy membership raster for the proximity to landcover inpu
 
 ![Final Fuzzy Overlay Model]({{ site.baseurl }}/img/full-size/fuzzy-final.png "Final Fuzzy Overlay Model")
 
-This image shows the final fuzzy overlay model output.  It was created by running a fuzzy over lay on the intermediate `FuzzyOverDist` raster and the `FuzzyTreeCov` fuzzy membership raster.
+This image shows the final fuzzy overlay model output.  It was created by running a fuzzy overlay on the intermediate `FuzzyOverDist` raster and the `FuzzyTreeCov` fuzzy membership raster.
 
 ![Using Raster data for Site Selection Certificate]({{ site.baseurl }}/img/full-size/raster-site-selection-certificate.png "Using Raster data for Site Selection Certificate")
