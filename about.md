@@ -14,7 +14,7 @@ This course is called [Advanced Spatial Analysis](http://courses.ncsu.edu/gis520
 
 ## Professional Work
 
-My first position with the U.S. Fish &amp; Wildlife Service was under the Chesapeake Bay Nutria Eradication Program (CBNEP).  I worked as the GIS Analyst along with 10+ highly experience field staff who searched for and removed nutria, a small wetland rodent, from the Chesapeake Bay.  Althought I worked for the Chesapeake Bay Field Office I was stationed on Maryland's Eastern Shore where I lived and worked on Blackwater National Wildlife Refuge.
+My first position with the U.S. Fish &amp; Wildlife Service was under the Chesapeake Bay Nutria Eradication Program (CBNEP).  I worked as the GIS Analyst along with 10+ highly experienced field staff who searched for and removed nutria, a small wetland rodent, from the Chesapeake Bay.  Although I worked for the Chesapeake Bay Field Office I was stationed on Maryland's Eastern Shore where I lived and worked on Blackwater National Wildlife Refuge.
 
 Currently I work in the Southeast Region of the U.S. Fish &amp; Wildlife Service in Atlanta, GA as a GIS Analyst.  I provide mapping and data management support to the Ecological Services program throughout the Southeast Region.
 
