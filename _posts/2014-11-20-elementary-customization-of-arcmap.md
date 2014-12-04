@@ -35,7 +35,7 @@ For some reason, despite saving my ArcMap customizations to the MXD I noticed th
 
 ### Evaluation
 
-Since this assignment didn't require any actual analysis there is not result to consider for accuracy.  I was able to add commands to existing toolbars, and context menus.  I was also able to create my own custom toolbars to which I added several commands.
+Since this assignment didn't require any actual analysis there is no result to consider for accuracy.  I was able to add commands to existing toolbars, and context menus.  I was also able to create my own custom toolbars to which I added several commands.
 
 ## Application & Reflection
 
