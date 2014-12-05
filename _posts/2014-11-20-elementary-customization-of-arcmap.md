@@ -41,11 +41,17 @@ Since this assignment didn't require any actual analysis there is no result to c
 
 ### Problem description
 
+Give biologists an easy time running analyses on their field data by putting all of the tools they need on a custom toolbar.
+
 ### Data needed
+
+The data will be provided by the field user.  In this case we're simply writing a custom geoprocessing script based on our knowledge of the field work and making it easy for the biologist to do the analyses on their own.
 
 ### Analysis procedures
 
-Customizing the interface of ArcMap allows more advanced GIS users to increase their efficiency by having all the tools they need at their fingertips.  I have begun to write my own GIS script tools in Python that our Fisheries department uses to analyze data they collect throughout the Southeast using a standardized sampling methodology.  Their methodology takes into account effort, standard survey units, and seasonal variability, salinity, and riparian buffers around the stream/river being surveyed.  My scripts take in the standard datasets and run analyses to find species richness, biomass, and proportion of aquatic invasive species both annually and seasonally.  Since I will now be able to customize the ArcMap interface I can create a map document specifically for this project that allows field biologists without extensive GIS knowledge to find only the necessary tools. I can hide much of the other functionality that ArcMap provides as to reduce the amount of complexity the biologists need to navigate in order to analyze their data.
+Customizing the interface of ArcMap allows more advanced GIS users to increase their efficiency by having all the tools they need at their fingertips.  I have begun to write my own GIS script tools in Python that our Fisheries department uses to analyze data they collect throughout the Southeast using a standardized sampling methodology.  Their methodology takes into account effort, standard survey units, and seasonal variability, salinity, and riparian buffers around the stream/river being surveyed.  My scripts take in the standard datasets and run analyses to find species richness, biomass, and proportion of aquatic invasive species both annually and seasonally. I can hide much of the other functionality that ArcMap provides as to reduce the amount of complexity the biologists need to navigate in order to analyze their data.
+
+Once I have the script tool written and in a custom toolbox I create a new toolbar with the Customize -> Customize mode from the file menu.  With the toolbar tab selected I click new and name my toolbar the "Fisheries Standard Sampling Tools".  I then drag my custom script to the toolbar and save the customizations to the map document.  This makes the toolbar available to other users as long as they open this particular map document that I set up for the project.
 
 ![Customizing the ArcMap UI]({{ site.baseurl }}/img/full-size/customize-the-interface.jpg "Customizing the ArcMap UI")
 

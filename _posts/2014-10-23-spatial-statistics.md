@@ -40,13 +40,15 @@ This was the first time that we were able to use statistical analysis to quantif
 
 ### Problem description
 
+We need to create a density surface of Submerged Aquatic Vegetation (SAV) for several sampling locations in the Chesapeake Bay to monitor growth and recovery in response to removal of Mute Swans.  Mute swans are invasive to North America and can consume up to 9 lbs of SAV a day.
 
 ### Data needed
 
+For each survey location we have randomly selected 25 survey points from a grid where we drag an SAV rake to pull up vegetation.  Based on the amount of vegetation on the rake we score the location between 0 (no SAV on rake) to 4 (rake is completely covered in SAV).  Additionally we need a feature class of Mute Swan occurrence locations.
+
 ### Analysis procedures
 
-
-Spatial statistics are very useful in the world of natural resource management.  Species locations are tracked with GPS either through observation, or remote GPS collars that transmit their location to a remote server.  This data is almost always compared to the habitat or landcover in that particular record's location.  After accumulating this type of data for some period of time we can use spatial statistics to get a better understanding of where a particular species tends to cluster, and how the associated habitat/landcover conditions might support that species' population.  We can use this kind of information to build habitat models, or use predictive models like Maxent to discover populations that haven't yet been discovered.  With this knowledge we can target restoration and work to improve habitat for rare species.
+For each survey location we map the GPS locations where we did SAV density measurements along with the swan occurrences.  We can use these attributes with the multi-distance spatial cluster analysis to determine if mute swans and low densities of SAV are spatially related phenomena.  This analysis produces a table containing expected and observed K values.  A comparison of the two values suggests that the tested the SAV density and proximity of mute swans are more clustered or dispersed than a random sample.  Based on the confidence interval we select we can also determine if our resluts are statistically significant by testing if the observed K value is greater than the higher confidence envelope or lower than the lower confidence envelope.  If we determine that mute swans and low SAV densities are clustered we can justify a management plan that includes removing the swans from the Bay.
 
 ![Map of EMS call Cluster Analysis]({{ site.baseurl }}/img/full-size/cluster-analysis.jpg "Map of EMS call Cluster Analysis")
 

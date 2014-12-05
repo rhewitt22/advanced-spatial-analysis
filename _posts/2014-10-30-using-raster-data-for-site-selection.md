@@ -48,7 +48,23 @@ In this animated image you can see me swipe away the intermediate fuzzy overlay 
 
 Fuzzy overlay analysis is probably the best analysis to apply in natural resource applications.  The whole purpose of GIS layers is to accurately represent some sort of geographic phenomena.  In the world of natural resources that could be landcover, paths/roads, temperature, precipitation, etc.  The problem is that we have only two ways to represent these environmental factors: vector and raster datasets.  Unfortunately, in the real-world, plants and animals live their lives far removed from such cut and dry points, lines, polygons, and raster cells.  As such a fuzzy overlay approach to modeling the natural environment can often provide more accurate models.
 
-For my work with the U.S. Fish &amp; Wildlife Service on the Chesapeake Bay Nutria Eradication Program we sought to eliminate nutria, a marsh rodent, from the entire estuary. I joined the team late in the game as a GIS analyst after the team of trappers had already eliminated the majority of the Chesapeake Bay population.  The remaining population generally existed in areas that had not recently been surveyed, and marginal habitats.  As such it was difficult to model where we could find the remaining nutria based on environmental factors alone.  Luckily the team rigorously recorded their daily survey tracks showing which portions of the Bay had been surveyed over certain time spans.  With the use of fuzzy overlay modeling I could take into account the location, type of survey (foot, detector dog, shoreline boat), and how recent the survey was conducted along with more traditional environmental factors like vegetation type, density, and salinity. This type of analyses wouldn't tell us the most suitable habitat for the nutria, but instead would suggest the most likely areas our field staff would encounter a nutria.  This is incredibly useful information when the population is reduced to the point that staff may go weeks without encountering a nutria.
+For my work with the U.S. Fish &amp; Wildlife Service on the Chesapeake Bay Nutria Eradication Program we sought to eliminate nutria, a marsh rodent, from the entire estuary. I joined the team late in the game as a GIS analyst after the team of trappers had already eliminated the majority of the Chesapeake Bay population.  The remaining population generally existed in areas that had not recently been surveyed, and marginal habitats.  As such it was difficult to model where we could find the remaining nutria based on environmental factors alone.  Luckily the team rigorously recorded their daily survey tracks showing which portions of the Bay had been surveyed over certain time spans.
+
+### Problem description
+
+Create a model that quantifies the probability of encountering a nutria during a field survey.
+
+### Data needed
+
+The data needed in this analysis include a feature class of all past surveys including the type of survey conducted.  Each type of survey has a different probability of encountering a nutria so they must be weighted differently.  Second we need a raster landcover dataset that allows us to identify particular habitats where nutria are known to occur more often than in marginal habitats.  
+
+### Analysis procedures
+
+With the use of fuzzy overlay modeling I can take into account the location, type of survey (foot, detector dog, shoreline boat), and how recent the survey was conducted along with more traditional environmental factors like vegetation type, density, and salinity. More recent surveys that resulted in a detection would suggest other surveys in that area would also result in detection.  Likewise if a recent survey did not return any detections it would suggest that another survey in that area would be unlikely to result in a detection.
+
+For each layer I need to use the fuzzy membership geoprocessing tool to create a probability surface.  I would then use the fuzzy overlay tool to combine the vegetation raster with the raster of past surveys and salinity surface using the `AND` overlay type because the combined evidence of each of the factors should have a high value to suggest a high probability of detecting another nutria.  
+
+It's important to realize that this type of analysis wouldn't tell us the most suitable habitat for the nutria, but instead would suggest the most likely areas our field staff would encounter a nutria.  This is incredibly useful information when the population is reduced to the point that staff may go weeks without encountering a nutria.
 
 ![Fuzzy membership for proximity to water]({{ site.baseurl }}/img/full-size/fuzzy-water.png "Fuzzy membership for proximity to water")
 
