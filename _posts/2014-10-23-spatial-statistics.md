@@ -24,7 +24,7 @@ For this assignment we used the Spatial Statistics tools available in ArcGIS.  W
 
 Include a brief description in a paragraph form and a diagram that clearly communicate the procedures and overall process you used to solve the problem. Overall, this section should be a generalized description for solving the problem, which could be also used for solving other similar problems. Hence, this is NOT to be a detailed step-by-step procedure log and it should not be a click-by-click description. The diagram should also be a generalized graphical/visual representation of your workflow used to solve the problem. You may create the diagram using any software/format available, and include it as a screen capture in your text document. Ensure that the text associated with the diagram is readable. If you include separate diagrams and writeup for the four exercises, which is not necessary, it is ok if the document is longer than 2 pages.
 
-![Spatial Statistics]({{ site.baseurl }}img/diagrams/spatial-statistics.png "Spatial Statistics")
+![Spatial Statistics]({{ site.baseurl }}/img/diagrams/spatial-statistics.png "Spatial Statistics")
 
 ## Discussion
 
