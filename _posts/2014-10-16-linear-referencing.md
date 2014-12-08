@@ -42,6 +42,8 @@ My results showed that poorly maintained roads (score less than or equal to 75/1
 
 Evidence suggests that distracted and intoxicated driving are some of the most dangerous variables contributing to accidents on the road.  Both of these variables are unrelated to road condition.  I would also assume that roads with high speed limits and a large density of on-ramps and off-ramps would also account for more accidents per mile.
 
+![Linear Referencing]({{ site.baseurl }}/img/full-size/linear-referencing.png "Linear Referencing")
+
 ## Application & Reflection
 
 ### Problem description

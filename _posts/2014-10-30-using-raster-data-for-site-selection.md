@@ -24,6 +24,8 @@ I'll once again use ArcMap's Spatial Analysis tools for this assignment.  The Sp
 
 For each input dataset I will run the fuzzy membership tool, which reclassifies the input data to a 0 to 1.  Lower numbers are less likely to be a "member of the set" or likelihood of a Bald Eagle nesting in a certain location, while higher numbers suggest a greater possibility of being a "member of the set". Once we have a fuzzy membership layer for each of our input datasets we can overlay them to create a single fuzzy surface that accounts for human disturbance and distance to water characteristics.  We use the `AND` operator because we want to find areas where all three criteria are met.  Finally we run a second fuzzy overlay with the `PRODUCT` operator on the tree cover fuzzy membership layer and the result of the first fuzzy overlay analysis.  This gives us our final fuzzy surface, which represents the likelihood that a Bald Eagle will nest anywhere in our study area based on our three input factors.
 
+![Fuzzy Overlay Process Diagram]({{ site.baseurl }}/img/diagrams/fuzzy-overlay.png "Fuzzy Overlay Process Diagram")
+
 ## Discussion:
 
 ### Difficulties Encountered
