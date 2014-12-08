@@ -6,7 +6,7 @@ layout: default
 
 This website serves as Roy Hewitt's digital portfolio for GIS 520: Advanced Geospatial Analytics.  This course is part of the Master of GIS&amp;Technology track at N.C. State University.  The primary role of this site is to provide a listing of [completed course assignments]({{site.baseurl}}/assignments/).
 
-<a href="https://flic.kr/p/7tL7tJ">![Sunset Over Earth]({{ site.baseurl }}img/full-size/earth.jpg "Sunset Over Earth")</a>
+<a href="https://flic.kr/p/7tL7tJ">![Sunset Over Earth]({{ site.baseurl }}/img/full-size/earth.jpg "Sunset Over Earth")</a>
 
 *Sunset Over Earth* <a href="https://www.flickr.com/photos/nasamarshall/">by NASA's Marshall Space Flight Center</a> ISS, 11/23/09
 
@@ -18,7 +18,7 @@ The assignments included in this course take the student through the entire proc
 
 As with any decision-making process there is almost always more than one way to approach the problem.  This course considers the strengths and weaknesses of different analytical techniques.  With this knowledge the student should be able to choose the most appropriate analysis method for a given problem.
 
-<a href="https://flic.kr/p/52gcBa">![Geography is a Flavor]({{ site.baseurl }}img/full-size/geography.jpg "Sign reads: 'Geography is a Flavor'")</a>
+<a href="https://flic.kr/p/52gcBa">![Geography is a Flavor]({{ site.baseurl }}/img/full-size/geography.jpg "Sign reads: 'Geography is a Flavor'")</a>
 
 *Geography* <a href="https://www.flickr.com/photos/awiseman/">by Andrew Wiseman</a>
 
@@ -32,6 +32,6 @@ Data was often provided with the assignment, but for the assignment dealing with
 
 One aspect that I would like to see change is the introduction of other software packages.  ArcGIS is the clear industry leader, but other, open source, technologies have closed the feature-gap over the last few years.  This is significant because, in my opinion, GIS analyses should be software agnostic.  To teach only one software package is to suggest it is the only (or best) tool for the job.  I think if one or two of the assignments were re-written to use [Quantum GIS (QGIS)](http://www.qgis.org/en/site/), an open-source alternative to ArcGIS, it would make students realize that the important thing to think about is spatial-problem solving rather than what buttons to push to conduct an analysis.  The other benefit of using open source technologies is that students can download the software cross-platform (Mac, Linux, Windows) and experiment at home without the need to pay licensing fees.
 
-<a href="https://flic.kr/p/72PRGV">![North Carolina State University]({{ site.baseurl }}img/full-size/ncsu.jpg "North Carolina State University")</a>
+<a href="https://flic.kr/p/72PRGV">![North Carolina State University]({{ site.baseurl }}/img/full-size/ncsu.jpg "North Carolina State University")</a>
 
 *NC State University* <a href="https://www.flickr.com/photos/23727257@N00/">by Suzie Tremmel</a>
