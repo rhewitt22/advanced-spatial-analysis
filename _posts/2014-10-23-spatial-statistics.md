@@ -34,7 +34,7 @@ Since the tutorials associated with this assignment were step-by-step I didn't r
 
 ### Evaluation
 
-This was the first time that we were able to use statistical analysis to quantify the accuracy of our results.  We were able to use the z-score and p-value of our statistical analysis to get a Confidence Level of our results.  Based on these values we were able to make an educated decision whether or not to reject the null hypothesis.  In statistical analysis the null hypothesis, in the case of spatial statistics, represents ["Complete Spatial Randomness (CSR), either of the features themselves or of the values associated with those features."] [1]  
+This was the first time that we were able to use statistical analysis to quantify the accuracy of our results.  We were able to use the z-score and p-value of our statistical analysis to get a Confidence Level of our results.  Based on these values we were able to make an educated decision whether or not to reject the null hypothesis.  In statistical analysis the null hypothesis, in the case of spatial statistics, represents ["Complete Spatial Randomness (CSR), either of the features themselves or of the values associated with those features."] [1]  An example of this using the Spatial Autocorrelation exercise showed that based on an input distance of 1100 feet and a z-score of 2.311 I rejected the null hypothesis.  There was less than a 5% chance that the clustered pattern of EMS calls could be due to random chance.
   
 ## Application &amp; Reflection
 
