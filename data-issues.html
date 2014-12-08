@@ -14,13 +14,14 @@ hide: true
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         {% if post.thumbnail %}
-        <img src="{{ site.baseurl }}/img/thumbnails/{{ post.thumbnail }}-thumb.png" class="post-thumb"/>
+        <img src="img/thumbnails/{{ post.thumbnail }}-thumb.png" class="post-thumb"/>
         {% endif %}
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
         </h2>
         <p>{{ post.excerpt }}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
+        <p>{{ post.url }}</p>
+        <a href="{{ post.url | prepend: site.baseurl}}">Read more...</a>
       </li>
     {% endif %}
     {% endfor %}
