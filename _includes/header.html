@@ -17,7 +17,7 @@
         {% for page in site.pages %}
           {% if page.title %}
           {% unless page.hide == true %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
           {% endunless %}
           {% endif %}
         {% endfor %}
@@ -26,38 +26,38 @@
 
     <nav class="course-menu">
       <ul>
-        <li><a href="{{ '/data-issues/' | prepend: site.baseurl }}">Data Issues</a>
+        <li><a href="/data-issues/">Data Issues</a>
           <ul>
             {% for post in site.posts %}
               {% if post.topic == "Geospatial Data Issues" %}
-              <li><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></li>
+              <li><a href="{{ post.url }}">{{post.title}}</a></li>
               {% endif %}
             {% endfor %}     
           </ul>
         </li>
-        <li><a href="{{ '/vector-data/' | prepend: site.baseurl }}">Vector Data</a>
+        <li><a href="/vector-data/">Vector Data</a>
           <ul>
             {% for post in site.posts %}
               {% if post.topic == "Geospatial Analytics with Vector Data" %}
-              <li><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></li>
+              <li><a href="{{ post.url }}">{{post.title}}</a></li>
               {% endif %}
             {% endfor %}  
           </ul>
         </li>
-        <li><a href="{{ '/raster-data/' | prepend: site.baseurl }}">Raster Data</a>
+        <li><a href="/raster-data/">Raster Data</a>
           <ul>
             {% for post in site.posts %}
               {% if post.topic == "Geospatial Analytics with Raster Data" %}
-              <li><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></li>
+              <li><a href="{{ post.url }}">{{post.title}}</a></li>
               {% endif %}
             {% endfor %}  
           </ul>
         </li>
-        <li><a href="{{ '/customization/' | prepend: site.baseurl }}">Customization</a>
+        <li><a href="/customization/">Customization</a>
           <ul>
             {% for post in site.posts %}
               {% if post.topic == "Customization" %}
-              <li><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></li>
+              <li><a href="{{ post.url }}">{{post.title}}</a></li>
               {% endif %}
             {% endfor %}  
           </ul>
